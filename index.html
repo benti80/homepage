@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bent-Einar - CV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #2c3e50;
+        }
+
+        h1 {
+            margin-bottom: 0.5em;
+        }
+
+        h2 {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 0.5em;
+            margin-top: 1em;
+        }
+        button {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1d2731;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 0.5em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #2c3e50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bent-Einar</h1>
+        <p>CV</p>
+    </header>
+
+    <main>
+        <button onclick="goBack()">Back</button>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Master of Science in Computer Science - University Norwegian University in Science and Technology - NTNU (2006)</li>
+                <li>Bachelor in Mathematics and economics - University University of Oslo - UiO (2012)</li>
+                <li>Bachelor in Economics - University University of Oslo - UiO (2015)</li>
+                <li>Pedagogics -University University of Oslo - UiO (2018)</li>
+                <li>Project managment - University University of Oslo - UiO (2024)</li>
+
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <h3>Web Developer - Company ABC (Year to Year)</h3>
+                    <p>Designed and implemented responsive and user-friendly web applications. Collaborated with cross-functional teams to deliver high-quality software.</p>
+                </li>
+                <li>
+                    <h3>Software Engineer - Company XYZ (Year to Year)</h3>
+                    <p>Developed and maintained scalable and efficient backend systems. Collaborated with front-end developers to integrate user-facing elements using server-side logic.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Node.js</li>
+                <li>SQL, MongoDB</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: john.doe@example.com | LinkedIn: linkedin.com/in/johndoe | Twitter: @johndoe</p>
+    </footer>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>
